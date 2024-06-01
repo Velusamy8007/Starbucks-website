@@ -364,7 +364,22 @@ flex: 1 1 17rem;
     .home-text {
         padding-top: inherit;
     }
-
+    .heading span {
+        font-size: 2rem;
+        
+    }
+    .home {
+        height: 30px;
+    }
+    .home {
+        width: 100%;
+        min-height: 100vh;
+        display: block;
+        flex-wrap: wrap;
+        align-items: center;
+        background: #ebdbc8;
+        gap: 1rem;
+    }
     .shop-container .box {
         margin-top: 6rem;
     }
@@ -372,11 +387,17 @@ flex: 1 1 17rem;
         font-size: 1.5rem;
     }
     .heading span {
-        font-size: 0.9rem;
+        font-size: 1.5rem;
     }
 
     .about {
         flex-direction: column-reverse;
+    }
+    .home-img img {
+        margin-top: 20px;
+    }
+    .heading {
+     margin-top: 40px;
     }
     
 }
@@ -385,4 +406,9 @@ flex: 1 1 17rem;
         display: flex;
         flex-direction: column;
     }
+    
+    .home-text span {
+       font-size: 10px;
+    }
+   
 }
